@@ -24,8 +24,8 @@
   |**GET**| = `/products`      | Fetch a list of all products List/Items.</br>
   |**Get**| = `/products/:id`  | Fetch a Specific products by ID.</br>
 
-  **http://localhost:`PORT`/products </br>**
-  **http://localhost:`PORT`/products/:id**
+  **http://localhost:`PORT`/products**</br>
+  **http://localhost:`PORT`/products/:id**</br>
 
 ###Repository Structure</br>
 #Server</br>
@@ -43,12 +43,12 @@
 ├── src/</br>
 │   ├── app/                    # Next.js App Router (Frontend Pages & API Routes)</br>
 │   │   ├── about/              # About Page</br>
-|   |   ├── contact/            # Contact Page</br>
+│   │   ├── contact/            # Contact Page</br>
 │   │   ├── product/            # Product Page</br>
 │   │   ├── layout.tsx          # Global layout</br>
-|   |   └── page.tsx            # Homepage (Frontend)</br>
-|   ├── components/</br>
-|   ├── hooks/</br>
+│   │   └── page.tsx            # Homepage (Frontend)</br>
+│   │── components/</br>
+|   │── hooks/</br>
 ├── README.md</br>
 └── .gitignore </br>
 
