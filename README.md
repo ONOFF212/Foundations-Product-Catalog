@@ -42,10 +42,10 @@
 #Client</br>
 ├── src/</br>
 │   ├── app/                    # Next.js App Router (Frontend Pages & API Routes)</br>
-│   │   └── about/              # About Page</br>
-|   |   └── contact/            # Contact Page</br>
-│   │   └── product/            # Product Page</br>
-│   │   └── layout.tsx          # Global layout</br>
+│   │   ├── about/              # About Page</br>
+|   |   ├── contact/            # Contact Page</br>
+│   │   ├── product/            # Product Page</br>
+│   │   ├── layout.tsx          # Global layout</br>
 |   |   └── page.tsx            # Homepage (Frontend)</br>
 |   ├── components/</br>
 |   ├── hooks/</br>
