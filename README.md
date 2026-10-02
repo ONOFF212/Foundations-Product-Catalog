@@ -31,9 +31,9 @@
 #Server</br>
 ├── src/</br>
 │   ├── controllers/      # Handles business logic for each route</br>
-│   ├── models/           # Data definitions (schemas / ORM models)
-│   ├── dbconfig/         # Database connection and environment configurations 
-│   ├── migrations/       # Database schema history and version control scripts
+│   ├── models/           # Data definitions (schemas / ORM models)</br>
+│   ├── dbconfig/         # Database connection and environment configurations </br>
+│   ├── migrations/       # Database schema history and version control scripts</br>
 │   ├── routes/           #  All application route definitions</br>
 │   │   └── product_route.js</br>
 │   └── index.js            # Main entry point mounting the root router</br>
