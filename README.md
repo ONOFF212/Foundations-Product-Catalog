@@ -21,6 +21,20 @@
      .PORT = "Server port"
 
 # Route
-  |**GET**| = `/products`      | Fetch a list of all products List/Items.
-  |**Get**| = `/products/:id`  | Fetch a Specific products by ID.
-  
+  |**GET**| = `/products`      | Fetch a list of all products List/Items.</br>
+  |**Get**| = `/products/:id`  | Fetch a Specific products by ID.</br>
+
+  **http://localhost:`PORT`/products </br>**
+  **http://localhost:`PORT`/products/:id**
+
+###Repository Structure
+#Server</br>
+├── src/</br>
+│   ├── controllers/      # Handles business logic for each route</br>
+│   ├── models/           # Data definitions (schemas / ORM models)
+│   ├── dbconfig/         # Database connection and environment configurations 
+│   ├── migrations/       # Database schema history and version control scripts
+│   ├── routes/           #  All application route definitions</br>
+│   │   └── product_route.js</br>
+│   └── index.js            # Main entry point mounting the root router</br>
+└── package.json</br>
